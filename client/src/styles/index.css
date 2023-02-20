@@ -1,9 +1,25 @@
+:root {
+  --primary-gradient: linear-gradient(180deg, #fcefdd 1.74%, #ffffff 31.44%);
+}
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
+  background-image: var(--primary-gradient);
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 html {
   scroll-behavior: smooth;
+  min-height: 100vh;
+}
+.marquee-container {
+  margin: 4rem 0;
+}
+.marquee {
+  gap: 4rem;
+  margin-bottom: 39px;
+  height: 10rem;
 }

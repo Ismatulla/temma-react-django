@@ -1,0 +1,26 @@
+const colors = {
+  colorSub: '#fdfdfd',
+  colorText: '#000000',
+  colorGray: '#2b2b2b',
+  colorLightGray: '#d9d9d9',
+  colorBg: '#fcefdd',
+  colorWhite: '#f5f5f5',
+  colorSuccess: '#55d653',
+  fontBase: `Rubik', arial, helvetica, "Segoe UI", roboto, ubuntu, sans-serif`,
+  fontMonospace: `"Karla", courier, monospace`,
+  fontRegular: 400,
+  fontMedium: 500,
+  fontBold: 700,
+  genericShadow: `1px 1px 5px #00000010`,
+  genericTransition: 'all 0.3s ease-in-out',
+  buttonPink: '#fa4092',
+  colorBorder: '#fd7e70',
+  colorFooter: '#436270',
+  colorIcon: '#fbfbfb',
+  colorWhite: '#ffffff',
+  shadowInput: '2px 2px 8px 0px #0000001a',
+  buttonGradient: `linear-gradient(91.41deg, #FE8C66 1.07%, #FA4092 143.49%)`,
+  cardBorder: '1px solid #FCEFDD',
+}
+
+export default colors
