@@ -19,6 +19,7 @@ function Home() {
         <Cards />
         <Marque imgs={imgBanner} />
         <NewsFlash />
+        <Marque imgs={imgPartner} />
       </div>
     </>
   );

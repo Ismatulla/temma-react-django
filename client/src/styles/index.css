@@ -1,5 +1,7 @@
 :root {
   --primary-gradient: linear-gradient(180deg, #fcefdd 1.74%, #ffffff 31.44%);
+  --button-gradient: linear-gradient(91.41deg, #fe8c66 1.07%, #fa4092 143.49%);
+  --font-base: "Karla", courier, monospace;
 }
 body {
   margin: 0;
@@ -18,8 +20,33 @@ html {
 .marquee-container {
   margin: 4rem 0;
 }
+.marquee > img {
+  width: 100%;
+}
 .marquee {
   gap: 4rem;
   margin-bottom: 39px;
   height: 10rem;
+}
+
+.carousel-indicators {
+  position: absolute;
+  top: 27rem;
+}
+
+.carousel-indicators button {
+  background: var(--button-gradient);
+  margin: 0 12px !important;
+  border-radius: 50%;
+  padding: 10px 7px !important;
+  width: 10px !important;
+}
+.note-of-slide {
+  position: absolute;
+  top: 292px;
+  bottom: 44px;
+  right: 2rem;
+  font-family: var(--font-base);
+  color: black;
+  font-weight: 500;
 }
