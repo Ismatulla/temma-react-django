@@ -8,6 +8,7 @@ import Cards from "../components/cards/Cards";
 import Marque from "../components/marque/Marque";
 import { imgBanner, imgPartner } from "../constants/marqueImgs";
 import NewsFlash from "../components/newsFlash/NewsFlash";
+import SupportCards from '../components/support/SupportCards';
 
 function Home() {
   return (
@@ -20,6 +21,7 @@ function Home() {
         <Marque imgs={imgBanner} />
         <NewsFlash />
         <Marque imgs={imgPartner} />
+        <SupportCards />
       </div>
     </>
   );

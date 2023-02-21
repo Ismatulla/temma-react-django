@@ -2,6 +2,7 @@
   --primary-gradient: linear-gradient(180deg, #fcefdd 1.74%, #ffffff 31.44%);
   --button-gradient: linear-gradient(91.41deg, #fe8c66 1.07%, #fa4092 143.49%);
   --font-base: "Karla", courier, monospace;
+  --color-footer: #436270;
 }
 body {
   margin: 0;
@@ -49,4 +50,73 @@ html {
   font-family: var(--font-base);
   color: black;
   font-weight: 500;
+}
+
+.footer {
+  width: 100%;
+  vertical-align: middle;
+  overflow: hidden;
+  background: var(--color-footer);
+  min-height: 728px;
+  padding-top: 80px;
+  font-family: var(--font);
+  font-size: 1.1rem;
+}
+
+.footer p {
+  text-align: center;
+  color: white;
+  font-family: var(--font);
+  font-size: 1.1rem;
+}
+
+.footer_partners {
+  border-bottom: 1px solid #d9d9d9;
+  width: 100%;
+}
+.footer_list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 126px;
+  column-gap: 85px;
+  margin-top: 95px;
+  margin-left: 76px;
+}
+.footer_partners ul {
+  list-style-type: none;
+}
+.footer_partners ul li {
+  color: white;
+  margin-bottom: 8px;
+}
+.copyright {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 36px;
+  margin-left: 76px;
+  margin-bottom: 50px;
+}
+.footer_icon_container {
+  display: flex;
+  justify-content: end;
+  margin-right: 136px;
+  column-gap: 19px;
+}
+.footer_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  width: 60px;
+  height: 60px;
+
+}
+.footer_icon .MuiSvgIcon-root {
+  border-radius: 4px;
+  background: white;
+  font-size: 2rem;
 }
