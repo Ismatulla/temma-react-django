@@ -14,9 +14,9 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import logo from '../../assets/images/right-navbar.svg'
-import  colors  from '../../constants/colors';
+import colors from '../../constants/colors';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-
+import { Link } from '@mui/material';
 
 const pages = ['Hulpdienst', 'Study associations', 'Translate'];
 const settings = ['SignUp', 'Club Manager', 'Login'];
