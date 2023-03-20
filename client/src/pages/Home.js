@@ -1,6 +1,5 @@
 import React from 'react';
 
-import Navbar from "../components/nav/Navbar";
 import Hero from "../components/hero/Hero";
 import { fonts } from "../constants/fonts";
 import StudyForm from "../components/study/StudyForm";
@@ -13,16 +12,14 @@ import SupportCards from '../components/support/SupportCards';
 function Home() {
   return (
     <>
-      <Navbar />
-      <div style={{ maxWidth: fonts.container, margin: 'auto' }}>
-        <Hero />
-        <StudyForm />
-        <Cards />
-        <Marque imgs={imgBanner} />
-        <NewsFlash />
-        <Marque imgs={imgPartner} />
-        <SupportCards />
-      </div>
+      <Hero />
+      <StudyForm />
+      <Cards />
+      <Marque imgs={imgBanner} />
+      <NewsFlash />
+      <Marque imgs={imgPartner} />
+      <SupportCards />
+
     </>
   );
 }

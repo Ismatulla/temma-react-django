@@ -113,10 +113,38 @@ html {
   gap: 2rem;
   width: 60px;
   height: 60px;
-
 }
 .footer_icon .MuiSvgIcon-root {
   border-radius: 4px;
   background: white;
   font-size: 2rem;
+}
+
+.input {
+  display: flex;
+  width: 40rem;
+  gap: 1rem;
+  margin: 2rem auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 17px;
+  box-shadow: 2px 2px 8px 0px #0000001a;
+  padding: 8px 24px;
+}
+.MuiInput-root {
+  width: 100%;
+}
+.input input {
+  outline: none;
+  border: none;
+  width: 100%;
+}
+input:focus {
+  outline: none;
+  border: none;
+}
+.input_and_sorting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

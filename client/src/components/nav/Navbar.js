@@ -16,10 +16,12 @@ import MenuItem from '@mui/material/MenuItem';
 import logo from '../../assets/images/right-navbar.svg'
 import colors from '../../constants/colors';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { Link } from '@mui/material';
+
+import { Link } from 'react-router-dom'
 
 const pages = ['Hulpdienst', 'Study associations', 'Translate'];
 const settings = ['SignUp', 'Club Manager', 'Login'];
+const urls = ['/', '/clubs/']
 
 const theme = createTheme({
   palette: {
@@ -101,9 +103,9 @@ export default function Navbar() {
                   display: { xs: 'block', md: 'none' },
                 }}
               >
-                {pages.map((page) => (
+                {pages.map((page, idx) => (
                   <MenuItem key={page} onClick={handleCloseNavMenu}>
-                    <Typography textAlign="center" color={colors.colorText}>{page}</Typography>
+                    <Link style={{ textAlign: "center", color: colors.colorText }} to={urls[idx]}>{page}</Link>
                   </MenuItem>
                 ))}
               </Menu>
@@ -128,14 +130,16 @@ export default function Navbar() {
 
             </Typography>
             <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex', justifyContent: "center", gap: "2rem" } }}>
-              {pages.map((page) => (
-                <Button
-                  key={page}
-                  onClick={handleCloseNavMenu}
-                  sx={{ my: 2, color: colors.colorText, display: 'block' }}
-                >
-                  {page}
-                </Button>
+              {pages.map((page, idx) => (
+                <Link to={urls[idx]} style={{ textDecoration: "none" }} key={idx}>
+                  <Button
+                    key={page}
+                    onClick={handleCloseNavMenu}
+                    sx={{ my: 2, color: colors.colorText, display: 'block' }}
+                  >
+                    {page}
+                  </Button>
+                </Link>
               ))}
             </Box>
 

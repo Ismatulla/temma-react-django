@@ -12,7 +12,7 @@ import {fonts} from "../../constants/fonts"
 export default function Cards({ name, bodyText, date }) {
   return (
     <Card sx={{ width: '350px', margin: '2rem 0', minHeight: '100%', padding: '25px', border: colors.cardBorder }}>
-      <CardContent>
+      <CardContent>dcdc
         <Box sx={{ display: 'flex', justifyContent: 'left', alignItms: 'center', gap: '1rem', marginBottom: fonts.bottomMargin }}>
           <img src={rightNavbar} alt="not found" />
           <div style={{ display: 'flex', flexDirection: 'column' }}>

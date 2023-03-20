@@ -1,0 +1,80 @@
+{
+  "clubs": [
+    {
+      "id": 1,
+      "location": "Amsterdam",
+      "name": "Ace",
+      "description": "good club!",
+      "status": "active",
+      "logo": "logo.com",
+      "questions": [
+        {
+          "id": 1,
+          "text": "question 1 always good!",
+          "answers": [
+            {
+              "id": 1,
+              "text": "yes it is good ",
+              "likes": 3
+            },
+            {
+              "id": 2,
+              "text": "question 2 also good",
+              "likes": 4
+            }
+          ],
+          "likes": 3
+        },
+        {
+          "id": 2,
+          "text": "are you okay?",
+          "answers": [
+            {
+              "id": 1,
+              "text": "yes i am",
+              "likes": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "location": "Utretcht",
+      "name": "Age",
+      "description": "good Age!",
+      "status": "not-active",
+      "logo": "logo.cm",
+      "questions": [
+        {
+          "id": 3,
+          "text": "question 3 always good!",
+          "answers": [
+            {
+              "id": 1,
+              "text": "yes it is good ",
+              "likes": 3
+            },
+            {
+              "id": 2,
+              "text": "question 2 also good",
+              "likes": 4
+            }
+          ],
+          "likes": 3
+        },
+        {
+          "id": 4,
+          "text": "are you okay?",
+          "answers": [
+            {
+              "id": 1,
+              "text": "yes i am",
+              "likes": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

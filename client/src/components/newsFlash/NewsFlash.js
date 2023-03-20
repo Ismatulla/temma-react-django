@@ -34,7 +34,7 @@ export default function NewsFlash() {
             <Link sx={{ textDecoration: 'none', textAlign: 'left', display: 'block' }} href="https://www.studiekeuze123.nl/" target="_blank">
               <Buttons text={"Ga naar website"} />
             </Link>
-            <p class="note-of-slide" style={{ right: "-8rem" }}>#zethetinjeagendaofzo</p>
+            <p className="note-of-slide" style={{ right: "-8rem" }}>#zethetinjeagendaofzo</p>
           </Carousel.Caption>
         </Carousel.Item>
         {/* end */}
@@ -49,7 +49,7 @@ export default function NewsFlash() {
             <Link sx={{ textDecoration: 'none', textAlign: 'left', display: 'block', marginTop: "4rem" }} href="https://duo.nl/particulier/" target="_blank">
               <Buttons text={"Ga naar website"} />
             </Link>
-            <p class="note-of-slide">#Laatgeengeldliggen</p>
+            <p className="note-of-slide">#Laatgeengeldliggen</p>
           </Carousel.Caption>
         </Carousel.Item>
         {/* end */}
@@ -64,7 +64,7 @@ export default function NewsFlash() {
             <Link sx={{ textDecoration: 'none', textAlign: 'left', display: 'block', marginTop: "4rem" }} href="https://duo.nl/particulier/" target="_blank">
               <Buttons text={"Ga naar website"} />
             </Link>
-            <p class="note-of-slide" style={{ marginTop: "2rem" }}>#kunjeookmeeopvakantieofzo</p>
+            <p className="note-of-slide" style={{ marginTop: "2rem" }}>#kunjeookmeeopvakantieofzo</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
